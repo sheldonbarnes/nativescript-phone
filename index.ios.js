@@ -1,4 +1,5 @@
 var frameModule = require("ui/frame");
+var utils = require("utils/utils");
 
 var CustomMFMessageComposeViewControllerDelegate = NSObject.extend({    
     initWithResolveReject: function(resolve, reject) {
